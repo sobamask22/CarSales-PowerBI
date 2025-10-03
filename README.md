@@ -14,14 +14,16 @@ The Vehicle sales data model is showed below. It highlights:
 
 
 ## Executive Summary:
-Key Performance Indicators (KPIs) track total purchase costs and their monthly distribution through a simple line graph. A map visual identifies supplier locations, with interactive tooltips showing total orders and purchase costs per country.
+The dashboard shows the KPIs of the business. On the overview page it shows the Total Revenue £2.54 Billion and the Total Sales 186K. It also highlights the YoY decrease of-0.06% for revenue and YoY decrease of -0.18% of total sales both from 2013-2014. It shows the sales trends from 2011-2014 throughouut the year
+
+<img width="1408" height="792" alt="image" src="https://github.com/user-attachments/assets/2b9d77df-95ad-431f-968c-6c2e8b2946e5" />
 
 Highlights:
-((Month-over-Month (MoM) Purchase Cost Growth: +0.07%
-MoM Orders Growth: +0.05%
-During the summer, a dip in company sales caused a temporary slowdown in warehouse activity. As demand recovered, franchisees increased orders, prompting higher purchase volumes to replinish warehouse stock.))
-
-<img width="1406" height="792" alt="image" src="https://github.com/user-attachments/assets/d608c4dc-290e-4715-8f50-4fd9fb376969" />
+- The revenue Year over Year % decrease of -0.06
+- The Sales Year over Year % decrease of -0.18
+- Line chart shows a significant dip in sale every April, spike up again in June and back down towards the end of the year
+- Top 5 car makes generating the most revenue. Ford generating the most with 454M
+- The number of sales per the transmission type. The most sold was automatic with 77k
 
 
 ## Insights Deep Dive:
