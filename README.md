@@ -29,7 +29,7 @@ The dashboard shows the KPIs of the business. On the overview page it shows the 
 
 
 ## Insights Deep Dive:
-
+2013 is the year with the most revenue
 
 ## Recommendations:
 
