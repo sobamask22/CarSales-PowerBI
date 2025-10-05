@@ -1,7 +1,8 @@
 # CarSales-PowerBI
 
 ## Project Overview:
-This project uses the Vehicle Sales and Market Trends Dataset to provide insights into the automotive resale market. The dataset shows the transactional and vehicle-specific information, including model, condition rating, Manheim Market Report (MMR) values, sale prices, sale dates and more. This information is valuable to those who want to view year over year % growth (YoY%) , sales trends, market values vs company sales(profits),etc. ((context and goals. speak from the pov of a data analyst.))
+This car sales uses the Vehicle Sales and Market Trends Dataset to provide insights into the automotive resale market. The dataset shows the transactional and vehicle-specific information, which includes model, condition rating, Manheim Market Report(MMR) values, sale prices, sale dates and more. This information is valuable to those who want to view year over year % growth(YoY% , sales trends, market values, brand specific, etc.
+The goal is to use visualization tools as well as calculated measures to show business specific data in revenue and sales. These insights give...
 
 
 ## Data Structure:
@@ -14,9 +15,14 @@ The Vehicle sales data model is showed below. It highlights:
 
 
 ## Executive Summary:
-The dashboard shows the KPIs of the business. On the overview page it shows the Total Revenue £2.54 Billion and the Total Sales 186K. It also highlights the YoY decrease of -0.06% for revenue and YoY decrease of -0.18% of total sales both from 2013-2014. It shows the sales trends from 2011-2014 throughouut the year
+The dashboard shows the KPIs of the business. On the overview page it shows the Total Revenue £2.54 Billion and the Total Sales 186K. It highlights the YoY% decrease of -0.06% in revenue and YoY% decrease of -0.18% in total sales both from 2013-2014.
+The dashboard also shows the monthly sales trend from 2010-2014. The line chart shows a rise in sales from January to Februray and a sharp decline from Feburary till April, a rise in April to June, back down in August to a very low and no sales in September to November and back up in December.
+It shows the top 5 makes in terms of total revenue with Ford being the most at £454.13M. shows a heatmap with intensity of which state denerates the most revenue and a bar chart showing the revenue per transmission type. The most is from automatic at £1.05Bn
+It shows the total MMR of products bought and compares them to the value they were sold for in total
 
-<img width="1408" height="792" alt="image" src="https://github.com/user-attachments/assets/2b9d77df-95ad-431f-968c-6c2e8b2946e5" />
+<img width="1400" height="791" alt="image" src="https://github.com/user-attachments/assets/70eb184c-e3d7-438a-8f18-7d566226b194" />
+
+
 
 ### Highlights:
 - The revenue Year over Year % decrease of -0.06
