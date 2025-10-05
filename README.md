@@ -15,14 +15,24 @@ The Vehicle sales data model is showed below. It highlights:
 
 
 ## Executive Summary:
+### Overview:
 The dashboard shows the KPIs of the business. On the overview page it shows the Total Revenue £2.54 Billion and the Total Sales 186K. It highlights the YoY% decrease of -0.06% in revenue and YoY% decrease of -0.18% in total sales both from 2013-2014.
+
 The dashboard also shows the monthly sales trend from 2010-2014. The line chart shows a rise in sales from January to Februray and a sharp decline from Feburary till April, a rise in April to June, back down in August to a very low and no sales in September to November and back up in December.
-It shows the top 5 makes in terms of total revenue with Ford being the most at £454.13M. shows a heatmap with intensity of which state denerates the most revenue and a bar chart showing the revenue per transmission type. The most is from automatic at £1.05Bn
-It shows the total MMR of products bought and compares them to the value they were sold for in total
+
+The dashboard also shows the top 5 makes in terms of total revenue with Ford being the most at £454.13M. shows a heatmap with intensity of which state denerates the most revenue and a bar chart showing the revenue per transmission type. The most is from automatic at £1.05Bn
+
+The dashboard also shows the total MMR of products bought and compares them to the value they were sold for in total
 
 <img width="1400" height="791" alt="image" src="https://github.com/user-attachments/assets/70eb184c-e3d7-438a-8f18-7d566226b194" />
 
+### Sales Trend:
 
+
+<img width="1408" height="787" alt="image" src="https://github.com/user-attachments/assets/6dc71d28-8e42-425c-b72e-794c0785e3f2" />
+
+### Product Performance:
+bmw
 
 ### Highlights:
 - The revenue Year over Year % decrease of -0.06
@@ -32,14 +42,6 @@ It shows the total MMR of products bought and compares them to the value they we
 - The number of sales per the transmission type. The most sold was automatic with 77k
 - Compares the MMR of all cars to the actual revenue made
 - Shows on the map the states where cars were sold 
-
-
-## Insights Deep Dive:
-### 2013
-2013 is the year with the most revenue
-
-### Product Performance:
-bmw
 
 
 ## Recommendations:
