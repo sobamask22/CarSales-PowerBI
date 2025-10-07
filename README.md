@@ -25,7 +25,7 @@ The dashboard includes a comparison between the total MMR value of acquired prod
 
 A breakdown of revenue by vehicle make identifies the top five contributors, with Ford leading at £454.13 million. Supporting visuals include a heatmap illustrating revenue intensity by state and a donut chart showing revenue distribution by transmission. Automatic transmissions generate the highest revenue at £1.05 billion.
 
-Monthly sales data from 2010 to 2014 is visualized through a line chart, revealing seasonal fluctuations. Sales typically rise from January to February, decline sharply through April, rebound between May and June, dip again in August, and reach their lowest levels from September to November before recovering in December.
+Monthly sales data from 2010 to 2014 is visualized through a line chart, revealing seasonal fluctuations. Sales typically rise from January to February, decline sharply through April, rebound between May and June, dip again in July, and reach their lowest levels from September to November before recovering in December.
 
 <img width="1400" height="791" alt="image" src="https://github.com/user-attachments/assets/70eb184c-e3d7-438a-8f18-7d566226b194" />
 
@@ -44,9 +44,6 @@ bmw
 - Transmission Type Breakdown: - Sales by transmission type show automatic vehicles as the most popular, accounting for 77 thousand units sold.
 - MMR vs Actual Revenue: A comparative analysis highlights the difference between the Manheim Market Report (MMR) values of all vehicles and their actual sale revenue.
 - Geographical Sales Distribution: A map visualization displays the states where vehicles were sold, offering insight into regional market activity.
-  
-
-## Recommendations:
 
 
 ## Tech Stack:
