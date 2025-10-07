@@ -27,12 +27,14 @@ The Vehicle sales data model is showed below. It highlights:
 
 - Monthly sales data from 2010 to 2014 is visualized through a line chart, revealing seasonal fluctuations. Sales typically rise from January to February, decline sharply through April, rebound between May and June, dip again in July, and reach their lowest levels from September to November before recovering in December.
 
-<img width="1400" height="791" alt="image" align-center src="https://github.com/user-attachments/assets/70eb184c-e3d7-438a-8f18-7d566226b194" />
+<img width="1400" height="791" alt="image" src="https://github.com/user-attachments/assets/70eb184c-e3d7-438a-8f18-7d566226b194" />
 
 ### Sales Trend:
-The sales trend highlights the top 10 make by revenue it also shows the the Yoy change in revenue and sales using trend arrows. Through this I was able to see that with Mercedes and Infinity alough the sales yoy were down the yoy revenue still went up. This suggests that newer and/or better quality cars were sold compared to 2012.
+- **Peak Revenue Year:** 2013 was the highest-performing year, recording £572.24 million in revenue, 32.8 thousand units sold, and an average sale value of £17.5k per unit. Interactive slicers allow users to filter results by state, transmission type, and vehicle color for deeper analysis.
 
-The sales trend also highlights the 
+- Sales Trend Insight: A visual breakdown of the top 10 car makes by revenue is presented, along with year-over-year (YoY) changes in both revenue and sales indicated by trend arrows. Notably, Mercedes and Infiniti experienced a decline in YoY sales volume but an increase in YoY revenue, suggesting that higher value or newer vehicles were sold compared to 2012.
+
+- The dashboard also displays monthly revenue and sales figures for 2013, accompanied by YoY trend arrows to highlight performance shifts compared to 2012.
 
 <img width="1408" height="787" alt="image" src="https://github.com/user-attachments/assets/6dc71d28-8e42-425c-b72e-794c0785e3f2" />
 
