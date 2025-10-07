@@ -32,9 +32,9 @@ The Vehicle sales data model is showed below. It highlights:
 ### Sales Trend:
 - **Peak Revenue Year:** 2013 was the highest-performing year, recording £572.24 million in revenue, 32.8 thousand units sold, and an average sale value of £17.5k per unit. Interactive slicers allow users to filter results by state, transmission type, and vehicle color for deeper analysis.
 
-- Sales Trend Insight: A visual breakdown of the top 10 car makes by revenue is presented, along with year-over-year (YoY) changes in both revenue and sales indicated by trend arrows. Notably, Mercedes and Infiniti experienced a decline in YoY sales volume but an increase in YoY revenue, suggesting that higher value or newer vehicles were sold compared to 2012.
+- **Sales Trend Insight:** A visual breakdown of the top 10 car makes by revenue is presented, along with year-over-year (YoY) changes in both revenue and sales indicated by trend arrows. Notably, Mercedes and Infiniti experienced a decline in YoY sales volume but an increase in YoY revenue, suggesting that higher value or newer vehicles were sold compared to 2012.
 
-- The dashboard also displays monthly revenue and sales figures for 2013, accompanied by YoY trend arrows to highlight performance shifts compared to 2012.
+- **Monthly Sales Analysis:** The dashboard also displays monthly revenue and sales figures for 2013, accompanied by YoY trend arrows to highlight performance shifts compared to 2012.
 
 <img width="1408" height="787" alt="image" src="https://github.com/user-attachments/assets/6dc71d28-8e42-425c-b72e-794c0785e3f2" />
 
@@ -42,29 +42,30 @@ The Vehicle sales data model is showed below. It highlights:
 bmw
 
 ### Highlights:
-- Year over Year Performance: Revenue declined by 0.06%, while total sales saw a 0.18% decrease between 2013 and 2014.
-- Seasonal Sales Trends: The line chart reveals a recurring dip in sales every April, followed by a spike in June and a gradual decline toward year-end.
-- Top Revenue Generating makes: The line chart reveals a recurring dip in sales every April, followed by a spike in June and a gradual decline toward year-end.
-- Transmission Type Breakdown: - Sales by transmission type show automatic vehicles as the most popular, accounting for 77 thousand units sold.
-- MMR vs Actual Revenue: A comparative analysis highlights the difference between the Manheim Market Report (MMR) values of all vehicles and their actual sale revenue.
-- Geographical Sales Distribution: A map visualization displays the states where vehicles were sold, offering insight into regional market activity.
+- **Year over Year Performance:** Revenue declined by 0.06%, while total sales saw a 0.18% decrease between 2013 and 2014.
+- **Seasonal Sales Trends:** The line chart reveals a recurring dip in sales every April, followed by a spike in June and a gradual decline toward year-end.
+- **Top Revenue Generating Make:** The line chart reveals a recurring dip in sales every April, followed by a spike in June and a gradual decline toward year-end.
+- **Transmission Type Breakdown:** Sales by transmission type show automatic vehicles as the most popular, accounting for 77 thousand units sold.
+- **MMR vs Actual Revenue:** A comparative analysis highlights the difference between the Manheim Market Report (MMR) values of all vehicles and their actual sale revenue.
+- **Geographical Sales Distribution:** A map visualization displays the states where vehicles were sold, offering insight into regional market activity.
 
 
 ## Tech Stack:
-- Microsoft Excel CSV: Used as the storage format for importing and exporting structured datasets
+- **Microsoft Excel CSV:** Used as the storage format for importing and exporting structured datasets
 
-- Python: Used for data cleaning and preprocessing, including the extraction of unique tables into separate CSV files for targeted analysis
+- **Python:** Used for data cleaning and preprocessing, including the extraction of unique tables into separate CSV files for targeted analysis
 
-- Power BI Desktop: Main platform for data visualization and reporting. Enables interactive dashboard creation to support market insights
+- **Power BI Desktop:** Main platform for data visualization and reporting. Enables interactive dashboard creation to support market insights
 
-- Power Query: Used for Data transformation, cleaning and preparation prior to modelling
+- **Power Query:** Used for Data transformation, cleaning and preparation prior to modelling
 
-- DAX (Data Analysis Expressions): Used to create calculated measures, KPIs, and dynamic filters for enhanced interactivity and analytical depth
+- **DAX (Data Analysis Expressions):** Used to create calculated measures, KPIs, and dynamic filters for enhanced interactivity and analytical depth
 
-- Data Modeling: Establishing relationships between tables for accurate filtering
+- **Data Modeling:** Establishing relationships between tables for accurate filtering
 
 
-## Source: https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data
+## Source:
+https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data
 
 
 ## Personal Note
