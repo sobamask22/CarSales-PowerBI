@@ -1,8 +1,11 @@
 # CarSales-PowerBI
 
 ## Project Overview:
-This car sales uses the Vehicle Sales and Market Trends Dataset to provide insights into the automotive resale market. The dataset shows the transactional and vehicle-specific information, which includes model, condition rating, Manheim Market Report(MMR) values, sale prices, sale dates and more. This information is valuable to those who want to view year over year % growth(YoY% , sales trends, market values, brand specific, etc.
-The goal is to use visualization tools as well as calculated measures to show business specific data in revenue and sales. These insights give...
+The car sales analytics project uses the Vehicle Sales and Market Trends Dataset to provide insights within the automotive resale market. The dataset contains transactional and vehicle-specific information such as model, condition rating, Manheim Market Report(MMR) values, sale prices, sale dates and more.
+
+These data points enable stakeholders to explore key metrics such as year-over-year (YoY) growth, sales trends, market valuations, and brand-level performance.
+
+The objective is to utilize visualization tools and calculated measures to produce business critical insights related to revenue and sales. These visualizations support decision makers to Monitor performance across time periods, Understand geographic and transmission type revenue distribution, Identify high-margin opportunities, Track seasonal sales patterns, and more.
 
 
 ## Data Structure:
@@ -16,13 +19,13 @@ The Vehicle sales data model is showed below. It highlights:
 
 ## Executive Summary:
 ### Overview:
-The dashboard shows the KPIs of the business. On the overview page it shows the Total Revenue £2.54 Billion and the Total Sales 186K. It highlights the YoY% decrease of -0.06% in revenue and YoY% decrease of -0.18% in total sales both from 2013-2014.
+The overview page highlights a total revenue of £2.54 billion and total sales volume of 186 thousand units. Year-over-year comparisons indicate a slight decline in performance, with revenue decreasing by 0.06% and total sales falling by 0.18% between 2013 and 2014.
 
-The dashboard also shows the monthly sales trend from 2010-2014. The line chart shows a rise in sales from January to Februray and a sharp decline from Feburary till April, a rise in April to June, back down in August to a very low and no sales in September to November and back up in December.
+The dashboard includes a comparison between the total MMR value of acquired products and their sale value, providing insight into the margin performance.
 
-The dashboard also shows the top 5 makes in terms of total revenue with Ford being the most at £454.13M. shows a heatmap with intensity of which state denerates the most revenue and a bar chart showing the revenue per transmission type. The most is from automatic at £1.05Bn
+A breakdown of revenue by vehicle make identifies the top five contributors, with Ford leading at £454.13 million. Supporting visuals include a heatmap illustrating revenue intensity by state and a donut chart showing revenue distribution by transmission. Automatic transmissions generate the highest revenue at £1.05 billion.
 
-The dashboard also shows the total MMR of products bought and compares them to the value they were sold for in total
+Monthly sales data from 2010 to 2014 is visualized through a line chart, revealing seasonal fluctuations. Sales typically rise from January to February, decline sharply through April, rebound between May and June, dip again in August, and reach their lowest levels from September to November before recovering in December.
 
 <img width="1400" height="791" alt="image" src="https://github.com/user-attachments/assets/70eb184c-e3d7-438a-8f18-7d566226b194" />
 
@@ -35,30 +38,27 @@ The dashboard also shows the total MMR of products bought and compares them to t
 bmw
 
 ### Highlights:
-- The revenue Year over Year % decrease of -0.06
-- The Sales Year over Year % decrease of -0.18
-- Line chart shows a significant dip in sale every April, spike up again in June and back down towards the end of the year
-- Top 5 car makes generating the most revenue. Ford generating the most with 454M
-- The number of sales per the transmission type. The most sold was automatic with 77k
-- Compares the MMR of all cars to the actual revenue made
-- Shows on the map the states where cars were sold 
-
+- Year over Year Performance: Revenue declined by 0.06%, while total sales saw a 0.18% decrease between 2013 and 2014.
+- Seasonal Sales Trends: The line chart reveals a recurring dip in sales every April, followed by a spike in June and a gradual decline toward year-end.
+- Top Revenue Generating makes: The line chart reveals a recurring dip in sales every April, followed by a spike in June and a gradual decline toward year-end.
+- Transmission Type Breakdown: - Sales by transmission type show automatic vehicles as the most popular, accounting for 77 thousand units sold.
+- MMR vs Actual Revenue: A comparative analysis highlights the difference between the Manheim Market Report (MMR) values of all vehicles and their actual sale revenue.
+- Geographical Sales Distribution: A map visualization displays the states where vehicles were sold, offering insight into regional market activity.
+  
 
 ## Recommendations:
 
 
 ## Tech Stack:
-- Microsoft Excel CSV: Used to store the data
+- Microsoft Excel CSV: Used as the storage format for importing and exporting structured datasets
 
-- Python: Data cleaning used Extraction of unique tables into separate CSV files for analysis
+- Python: Used for data cleaning and preprocessing, including the extraction of unique tables into separate CSV files for targeted analysis
 
-- Power BI Desktop: Main platform for data visualization and reporting/ - Dashboard creation for interactive market insights and stakeholder storytelling
+- Power BI Desktop: Main platform for data visualization and reporting. Enables interactive dashboard creation to support market insights
 
-- Exploratory Data Analysis (EDA) with Power BI and matplotlib/seaborn.
+- Power Query: Used for Data transformation, cleaning and preparation prior to modelling
 
-- Power Query: Data transformation and preparation
-
-- DAX (Data Analysis Expressions): Creation of KPIs and dynamic filters
+- DAX (Data Analysis Expressions): Used to create calculated measures, KPIs, and dynamic filters for enhanced interactivity and analytical depth
 
 - Data Modeling: Establishing relationships between tables for accurate filtering
 
