@@ -5,7 +5,7 @@ The car sales analytics project uses the Vehicle Sales and Market Trends Dataset
 
 These data points enable stakeholders to explore key metrics such as year-over-year (YoY) growth, sales trends, market valuations, and brand-level performance.
 
-The objective is to utilize visualization tools and calculated measures to produce business critical insights related to revenue and sales. These visualizations support decision makers to Monitor performance across time periods, Understand geographic and transmission type revenue distribution, Identify high-margin opportunities, Track seasonal sales patterns, and more.
+The objective is to utilize visualization tools and calculated measures to produce business critical insights related to revenue and sales. These visualizations support decision makers to Monitor performance across time periods, Understand geographic and transmission type revenue distribution, Identify high-margin products, Track seasonal sales patterns, and more.
 
 
 ## Data Structure:
