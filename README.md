@@ -1,11 +1,11 @@
 # CarSales-PowerBI
 
 ## Project Overview:
-The car sales analytics project uses the Vehicle Sales and Market Trends Dataset to provide insights within the automotive resale market. The dataset contains transactional and vehicle-specific information such as model, condition rating, Manheim Market Report(MMR) values, sale prices, sale dates and more.
+- The car sales analytics project uses the Vehicle Sales and Market Trends Dataset to provide insights within the automotive resale market. The dataset contains transactional and vehicle-specific information such as model, condition rating, Manheim Market Report(MMR) values, sale prices, sale dates and more.
 
-These data points enable stakeholders to explore key metrics such as year-over-year (YoY) growth, sales trends, market valuations, and brand-level performance.
+- These data points enable stakeholders to explore key metrics such as year-over-year (YoY) growth, sales trends, market valuations, and brand-level performance.
 
-The objective is to utilize visualization tools and calculated measures to produce business critical insights related to revenue and sales. These visualizations support decision makers to Monitor performance across time periods, Understand geographic and transmission type revenue distribution, Identify high-margin products, Track seasonal sales patterns, and more.
+- The objective is to utilize visualization tools and calculated measures to produce business critical insights related to revenue and sales. These visualizations support decision makers to Monitor performance across time periods, Understand geographic and transmission type revenue distribution, Identify high-margin products, Track seasonal sales patterns, and more.
 
 
 ## Data Structure:
@@ -19,18 +19,20 @@ The Vehicle sales data model is showed below. It highlights:
 
 ## Executive Summary:
 ### Overview:
-The overview page highlights a total revenue of £2.54 billion and total sales volume of 186 thousand units. Year-over-year comparisons indicate a slight decline in performance, with revenue decreasing by 0.06% and total sales falling by 0.18% between 2013 and 2014.
+- The overview page highlights a total revenue of £2.54 billion and total sales volume of 186 thousand units. Year-over-year comparisons indicate a slight decline in performance, with revenue decreasing by 0.06% and total sales falling by 0.18% between 2013 and 2014.
 
-The dashboard includes a comparison between the total MMR value of acquired products and their sale value, providing insight into the margin performance.
+- The dashboard includes a comparison between the total MMR value of acquired products and their sale value, providing insight into the margin performance.
 
-A breakdown of revenue by vehicle make identifies the top five contributors, with Ford leading at £454.13 million. Supporting visuals include a heatmap illustrating revenue intensity by state and a donut chart showing revenue distribution by transmission. Automatic transmissions generate the highest revenue at £1.05 billion.
+- A breakdown of revenue by vehicle make identifies the top five contributors, with Ford leading at £454.13 million. Supporting visuals include a heatmap illustrating revenue intensity by state and a donut chart showing revenue distribution by transmission. Automatic transmissions generate the highest revenue at £1.05 billion.
 
-Monthly sales data from 2010 to 2014 is visualized through a line chart, revealing seasonal fluctuations. Sales typically rise from January to February, decline sharply through April, rebound between May and June, dip again in July, and reach their lowest levels from September to November before recovering in December.
+- Monthly sales data from 2010 to 2014 is visualized through a line chart, revealing seasonal fluctuations. Sales typically rise from January to February, decline sharply through April, rebound between May and June, dip again in July, and reach their lowest levels from September to November before recovering in December.
 
-<img width="1400" height="791" alt="image" src="https://github.com/user-attachments/assets/70eb184c-e3d7-438a-8f18-7d566226b194" />
+<img width="1400" height="791" alt="image" align-center src="https://github.com/user-attachments/assets/70eb184c-e3d7-438a-8f18-7d566226b194" />
 
 ### Sales Trend:
+The sales trend highlights the top 10 make by revenue it also shows the the Yoy change in revenue and sales using trend arrows. Through this I was able to see that with Mercedes and Infinity alough the sales yoy were down the yoy revenue still went up. This suggests that newer and/or better quality cars were sold compared to 2012.
 
+The sales trend also highlights the 
 
 <img width="1408" height="787" alt="image" src="https://github.com/user-attachments/assets/6dc71d28-8e42-425c-b72e-794c0785e3f2" />
 
