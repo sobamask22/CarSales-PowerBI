@@ -38,8 +38,12 @@ The Vehicle sales data model is showed below. It highlights:
 
 <img width="1408" height="787" alt="image" src="https://github.com/user-attachments/assets/6dc71d28-8e42-425c-b72e-794c0785e3f2" />
 
-### Product Performance:
-bmw
+### Brand Performance:
+- The page highlights the kpi cards of brands of cars. It includes the total sales and total revenue as well as the %of car sales with a condition of less than 20 being 0.2% and an odmoeter reading of less than 40,000 miles being 0.4%.
+- The line chart shows the revenue history of 2010 to 2014. The line chart has tooltips showing the specific value in each month in the year.
+- 
+
+<img width="1338" height="752" alt="image" src="https://github.com/user-attachments/assets/438322b5-e35a-4236-9195-6a62926c7a18" />
 
 ### Highlights:
 - **Year over Year Performance:** Revenue declined by 0.06%, while total sales saw a 0.18% decrease between 2013 and 2014.
