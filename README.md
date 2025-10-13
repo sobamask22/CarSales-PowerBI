@@ -59,8 +59,6 @@ The Vehicle sales data model is showed below. It highlights:
   
 - **Seasonal Sales Trends:** The line chart reveals a recurring dip in sales every April, followed by a spike in June and a gradual decline toward year-end.
   
-- **Top Revenue Generating Make:** The line chart reveals a recurring dip in sales every April, followed by a spike in June and a gradual decline toward year-end.
-  
 - **Transmission Type Breakdown:** Sales by transmission type show automatic vehicles as the most popular, accounting for 77 thousand units sold.
   
 - **MMR vs Actual Revenue:** A comparative analysis highlights the difference between the Manheim Market Report (MMR) values of all vehicles and their actual sale revenue.
