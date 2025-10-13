@@ -24,7 +24,7 @@ The Vehicle sales data model is showed below. It highlights:
 
 - The dashboard includes a comparison between the total MMR value of acquired products and their sale value, providing insight into the margin performance.
 
-- A breakdown of revenue by vehicle make identifies the top five contributors, with Ford leading at £454.13 million. Supporting visuals include a heatmap illustrating revenue intensity by state and a donut chart showing revenue distribution by transmission. Automatic transmissions generate the highest revenue at £1.05 billion.
+- A breakdown of revenue by vehicle make identifies the top five contributors, with Ford leading at £454.13 million. Supporting visuals include a map illustrating sales by state and a donut chart showing revenue distribution by transmission. Automatic transmissions generate the highest revenue at £1.05 billion.
 
 - Monthly sales data from 2010 to 2014 is visualized through a line chart, revealing seasonal fluctuations. Sales typically rise from January to February, decline sharply through April, rebound between May and June, dip again in July, and reach their lowest levels from September to November before recovering in December.
 
