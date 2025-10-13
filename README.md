@@ -20,7 +20,7 @@ The Vehicle sales data model is showed below. It highlights:
 ## Executive Summary:
 
 ### Overview:
-- The overview page highlights a total revenue of £2.54 billion and total sales volume of 186 thousand units. Year-over-year comparisons indicate a slight decline in performance, with revenue decreasing by 0.06% and total sales falling by 0.18% between 2013 and 2014.
+- The overview page highlights a total revenue of £2.54 billion and total sales volume of 186 thousand units. Year-over-year comparisons indicate a slight decline in performance, with revenue decreasing by 0.06% and total sales falling by 0.18% between 2013 and 2014. The line chart on the Kpi Cards shows the revenue and sales change between 2013 and 2014.
 
 - The dashboard includes a comparison between the total MMR value of acquired products and their sale value, providing insight into the margin performance.
 
@@ -28,7 +28,7 @@ The Vehicle sales data model is showed below. It highlights:
 
 - Monthly sales data from 2010 to 2014 is visualized through a line chart, revealing seasonal fluctuations. Sales typically rise from January to February, decline sharply through April, rebound between May and June, dip again in July, and reach their lowest levels from September to November before recovering in December.
 
-<img width="1400" height="791" alt="image" src="https://github.com/user-attachments/assets/70eb184c-e3d7-438a-8f18-7d566226b194" />
+<img width="1154" height="649" alt="image" src="https://github.com/user-attachments/assets/0ef33e21-78d6-4b2d-93d4-78bbc47310c2" />
 
 ### Sales Trend:
 - **Peak Revenue Year:** 2013 was the highest-performing year, recording £572.24 million in revenue, 32.8 thousand units sold, and an average sale value of £17.5k per unit. Interactive slicers allow users to filter results by state, transmission type, and vehicle color for deeper analysis.
@@ -37,7 +37,7 @@ The Vehicle sales data model is showed below. It highlights:
 
 - **Monthly Sales Analysis:** The dashboard also displays monthly revenue and sales figures for 2013, accompanied by YoY trend arrows to highlight performance shifts compared to 2012.
 
-<img width="1408" height="787" alt="image" src="https://github.com/user-attachments/assets/6dc71d28-8e42-425c-b72e-794c0785e3f2" />
+<img width="1152" height="651" alt="image" src="https://github.com/user-attachments/assets/ac94234e-c012-4823-b4d4-1a0541349a73" />
 
 ### Brand Performance:
 - This dashboard provides a focused analysis of car brand performance, with dynamic filtering enabled via a slicer. In the current view, BMW is selected, allowing for targeted insights across multiple dimensions:
@@ -53,11 +53,18 @@ The Vehicle sales data model is showed below. It highlights:
 <img width="1145" height="644" alt="image" src="https://github.com/user-attachments/assets/7bd98617-2e7b-4070-b535-372746f77d8c" />
 
 ### Highlights:
+- **Overview:** £2.54B Total Revenue across 186K units sold
+    
 - **Year over Year Performance:** Revenue declined by 0.06%, while total sales saw a 0.18% decrease between 2013 and 2014.
+  
 - **Seasonal Sales Trends:** The line chart reveals a recurring dip in sales every April, followed by a spike in June and a gradual decline toward year-end.
+  
 - **Top Revenue Generating Make:** The line chart reveals a recurring dip in sales every April, followed by a spike in June and a gradual decline toward year-end.
+  
 - **Transmission Type Breakdown:** Sales by transmission type show automatic vehicles as the most popular, accounting for 77 thousand units sold.
+  
 - **MMR vs Actual Revenue:** A comparative analysis highlights the difference between the Manheim Market Report (MMR) values of all vehicles and their actual sale revenue.
+  
 - **Geographical Sales Distribution:** A map visualization displays the states where vehicles were sold, offering insight into regional market activity.
 
 
