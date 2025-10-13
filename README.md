@@ -18,6 +18,7 @@ The Vehicle sales data model is showed below. It highlights:
 
 
 ## Executive Summary:
+
 ### Overview:
 - The overview page highlights a total revenue of £2.54 billion and total sales volume of 186 thousand units. Year-over-year comparisons indicate a slight decline in performance, with revenue decreasing by 0.06% and total sales falling by 0.18% between 2013 and 2014.
 
@@ -39,11 +40,17 @@ The Vehicle sales data model is showed below. It highlights:
 <img width="1408" height="787" alt="image" src="https://github.com/user-attachments/assets/6dc71d28-8e42-425c-b72e-794c0785e3f2" />
 
 ### Brand Performance:
-- The page highlights the kpi cards of brands of cars. It includes the total sales and total revenue as well as the %of car sales with a condition of less than 20 being 0.2% and an odmoeter reading of less than 40,000 miles being 0.4%.
-- The line chart shows the revenue history of 2010 to 2014. The line chart has tooltips showing the specific value in each month in the year.
-- 
+- This dashboard provides a focused analysis of car brand performance, with dynamic filtering enabled via a slicer. In the current view, BMW is selected, allowing for targeted insights across multiple dimensions:
 
-<img width="1338" height="752" alt="image" src="https://github.com/user-attachments/assets/438322b5-e35a-4236-9195-6a62926c7a18" />
+- **Vehicle Condition:** Cars with a condition rating below 20 represent just 0.2% of total BMW sales and Vehicles with an odometer reading under 40,000 miles account for 0.4%, indicating a low share of low-mileage inventory.
+
+- **Revenue Trend:** A line chart visualizes BMW’s revenue trajectory over five years. Monthly tooltips provide specific insights, allowing users to hover and view exact revenue values per month.
+
+- **Transmission Type Distribution:** A pie chart illustrates the breakdown of BMW sales by transmission type. Automatic at 83.4% being the dominant preference among buyers, Sedan at 12.5% and Manual being the least at 4.1%.
+
+- **Sale Heatmap:** A heatmap pinpoints brand sales locations. The color intensity reflects sales volume meaning darker regions indicate higher concentration of transactions.
+  
+<img width="1145" height="644" alt="image" src="https://github.com/user-attachments/assets/7bd98617-2e7b-4070-b535-372746f77d8c" />
 
 ### Highlights:
 - **Year over Year Performance:** Revenue declined by 0.06%, while total sales saw a 0.18% decrease between 2013 and 2014.
