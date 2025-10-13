@@ -10,9 +10,16 @@
 
 ## Data Structure:
 The Vehicle sales data model is showed below. It highlights:
-- The main fact table with its columns and data types
-- Relationships to supporting tables
+
+- The Car Sales fact table with its columns and data types. Key fields include sale date, sale price, MMR Value, Vehicle Make, Transmission Type, Condition Rating and Odometer Reading
+  
+- Each row in the fact table represents a unique vehicle sale
+
+- The date column allows the use of time intelligence allowing the analysis of Yoy, MoM and seasonal trends
+  
 - Data was cleaned and prepared using Microsoft Excel, Python scripts, and Power Query before analysis.
+
+- The diagram below shows the relationships from the fact table to supporting tables
 
 <img width="810" height="517" alt="image" src="https://github.com/user-attachments/assets/49a5a1f8-bdb7-4ceb-9f9a-ca179c28375b" />
 
@@ -82,6 +89,3 @@ The Vehicle sales data model is showed below. It highlights:
 
 ## Source:
 https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data
-
-
-## Personal Note
