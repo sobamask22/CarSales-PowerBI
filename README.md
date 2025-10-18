@@ -119,13 +119,13 @@ Power BI integrates effortlessly with Excel, making it easy to import, transform
 I used the free Power BI Desktop version, which offers robust features for individual development. For collaboration and sharing, the Pro license is $14/month, making it accessible for teams and small businesses.
 
 ### User-Friendly:
-Power BI’s drag-and-drop interface simplifies report building. It includes guided modelling, which prevents users from placing incompatible elements in the wrong areas. Reducing errors and improving usability for both beginners and advanced users.
+Power BI’s drag and drop interface simplifies report building. It includes guided modelling, which prevents users from placing incompatible elements in the wrong areas. Reducing errors and improving usability for both beginners and advanced users.
 
 ### Data Modelling:
 Power BI excels in data modelling through:
 - DAX (Data Analysis Expressions) for custom calculations
 - Power Query for advanced data transformation
-- Support for multi-table relationships for enabling complex models
+- Support for multi-table relationships which enables complex models
 
 <br>
 
