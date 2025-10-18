@@ -8,20 +8,29 @@
 - The objective is to utilize visualization tools and calculated measures to produce business critical insights related to revenue and sales. These visualizations support decision makers to Monitor performance across time periods, Understand geographic and transmission type revenue distribution, Identify high-margin products, Track seasonal sales patterns, and more.
 
 
-## Data Structure:
-The Vehicle sales data model is showed below. It highlights:
+## Data Preperation and Modelling:
+One of the main challenges I faced during this project was the inconsistency of the dataset. With over 186,000 rows, manually reviewing the data would be an extremely daunting. Issues include empty rows and missing values, excess table regions and duplicate entries in categorical columns (“Ford”, “FORD” & “ford”).
 
-- The Car Sales fact table with its columns and data types. Key fields include sale date, sale price, MMR Value, Vehicle Make, Transmission Type, Condition Rating and Odometer Reading
+My cleaning approach: To tackle these issues efficiently, I used Python in Visual Studio Code and Power Query in Power BI:
+
+**Step 1:** Load and Inspect Data
+- Imported the CSV file using its file path and displayed the top rows
+
+**Step 2:** Explore Unique Values
+- Exported a CSV containing unique values from the target column
+- This helped me quickly identify inconsistent entries and duplicates
   
-- Each row in the fact table represents a unique vehicle sale
-
-- The date column allows the use of time intelligence allowing the analysis of Yoy, MoM and seasonal trends
+**Step 3:** Replace Values with Python
+- Used df.replace() to standardize inconsistent entries (e.g., all variations of “Ford”)
+- Used df.replace() to handle null values in specific columns
   
-- Data was cleaned and prepared using Microsoft Excel, Python scripts, and Power Query before analysis.
-
-- The diagram below shows the relationships from the fact table to supporting tables
-
-<img width="810" height="517" alt="image" src="https://github.com/user-attachments/assets/49a5a1f8-bdb7-4ceb-9f9a-ca179c28375b" />
+**Step 4:** Re-run and Validate
+- Re-executed the code block to update the dataset
+- Regenerated the unique values sheet to confirm replacements were successful
+  
+**Step 5:** Trim Excess Table Regions
+- In Power BI, I used Power Query to remove unnecessary rows and columns that extended beyond the actual data
+- This ensured a clean, structured dataset that didn’t interfere with visualizations or calculations
 
 
 ## Executive Summary:
@@ -74,6 +83,40 @@ The Vehicle sales data model is showed below. It highlights:
 
 
 <img width="1849" height="917" alt="image" src="https://github.com/user-attachments/assets/82b4195e-2231-42fc-9e36-4f9cacebbf89" />
+
+
+## Measures Created and Used:
+All calculated measures were created using Dax Formula and stored in a dedicated measures table. This design choice improves clarity, helps maintenance and supports better documentation especially in complex models.
+
+**Total Revenue:** Calculates the SUM of revenue across all transactions. This measure reflects overall earnings and can be filtered by time periods for trend analysis.
+
+**Total Sales:** Counts the total number of rows in the dataset, with each row representing a sale. Since there’s no order ID column therefore each row count serves as an individual sale.
+
+**Average Cost of Orders:** Divides Total Revenue by Total Sales to calculate the average spend per sale. This is useful for checking performance across categories like car brands or specific years.
+
+**YoY% Change:** Calculates Year over Year percentage change by comparing values across consecutive years. For example, Total Revenue 2013 against Total Revenue 2012 or Total Sales 2011 against Total Sales 2010. This helps identify growth trends or declines over time.
+
+**Sale of Car Condition < 25:** Evaluates vehicle quality per sale by checking the Condition column for values below 25. It returns the percentage of total sales that fall into this condition bracket.
+
+**Odometer < 40,000:** Calculates the percentage of vehicles sold with odometer readings under 40,000 miles. Useful for identifying low mileage inventory.
+MMR Total: Sums the Manheim Market Report (MMR) values, which represent benchmark market prices. This measure is essential for comparing actual sale prices against market expectations.
+
+
+## Why I chose Power BI:
+### Seamless Integration with Excel:
+Power BI integrates effortlessly with Excel, making it easy to import, transform, and visualize spreadsheets. Since both tools are part of the Microsoft ecosystem, they share familiar interfaces and functionalities which is ideal for users transitioning from Excel to more advanced analytics.
+
+### Cost-Effective and Accessible:
+I used the free Power BI Desktop version, which offers robust features for individual development. For collaboration and sharing, the Pro license is $14/month, making it accessible for teams and small businesses.
+
+### User-Friendly:
+Power BI’s drag-and-drop interface simplifies report building. It includes guided modelling, which prevents users from placing incompatible elements in the wrong areas. Reducing errors and improving usability for both beginners and advanced users.
+
+### Data Modelling:
+Power BI excels in data modelling through:
+- DAX (Data Analysis Expressions) for custom calculations
+- Power Query for advanced data transformation
+- Support for multi-table relationships for enabling complex models
 
 
 ## Tech Stack:
