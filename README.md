@@ -10,7 +10,7 @@
 <br>
 
 ## Data Preperation and Modelling:
-One of the main challenges I faced during this project was the inconsistency of the dataset. With over 186,000 rows, manually reviewing the data would be an extremely daunting. Issues include empty rows and missing values, excess table regions and duplicate entries in categorical columns.
+One of the main challenges I faced during this project was the inconsistency of the dataset. With over 186,000 rows, manually reviewing the data would be extremely daunting. Issues include empty rows and missing values, excess table regions and duplicate entries in categorical columns.
 
 My cleaning approach: To tackle these issues efficiently, I used Python in Visual Studio Code and Power Query in Power BI:
 
