@@ -6,9 +6,7 @@
 - These data points enable stakeholders to explore key metrics such as year-over-year (YoY) growth, sales trends, market valuations, and brand-level performance.
 
 - The objective is to utilize visualization tools and calculated measures to produce business critical insights related to revenue and sales. These visualizations support decision makers to Monitor performance across time periods, Understand geographic and transmission type revenue distribution, Identify high-margin products, Track seasonal sales patterns, and more.
-
-
-
+<br><br>
 
 ## Data Preperation and Modelling:
 One of the main challenges I faced during this project was the inconsistency of the dataset. With over 186,000 rows, manually reviewing the data would be an extremely daunting. Issues include empty rows and missing values, excess table regions and duplicate entries in categorical columns.
