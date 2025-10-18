@@ -25,13 +25,13 @@ My cleaning approach: To tackle these issues efficiently, I used Python in Visua
 
 <img width="782" height="506" alt="image" src="https://github.com/user-attachments/assets/505021aa-280c-448f-b36e-8c1f26a0fb91" />
 
+<img width="1369" height="262" alt="image" src="https://github.com/user-attachments/assets/1b0a3989-1967-4367-8a42-e7d13830bb5d" />
+
 **Step 3:** Replace Values with Python
 - Used df.replace() to standardize inconsistent entries (e.g., all variations of “Ford”)
 - Used df.replace() to handle null values in specific columns
 
 <img width="1067" height="605" alt="image" src="https://github.com/user-attachments/assets/d202165c-5162-4560-88c2-d02d8cc40888" />
-
-<img width="1369" height="262" alt="image" src="https://github.com/user-attachments/assets/1b0a3989-1967-4367-8a42-e7d13830bb5d" />
 
 **Step 4:** Re-run and Validate
 - Re-executed the code block to update the dataset
