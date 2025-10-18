@@ -132,8 +132,9 @@ Power BI excels in data modelling through:
 ## Why Specific Visuals?
 **Line Chart:** The line chart is ideal for visualizing trends across time periods. In my dashboard, it displays monthly values across multiple years, allowing users to compare performance year over year. Each line represents a different year, making it easy to spot seasonal patterns. For example, revenue and sales.
 
-**Pie Chart:** Pie charts work best when dealing with a small number of distinct categories. I use them to show how each category contributes to a whole, making percentage comparisons intuitive. For example, transmission types
-Maps: Maps are powerful for displaying location-based data without overwhelming the user with text. Instead of listing sales by region, I use map visuals to highlight activity across geographic areas. Users can apply slicers by year and hover over specific regions to see detailed metrics.
+**Pie Chart:** Pie charts work best when dealing with a small number of distinct categories. I use them to show how each category contributes to a whole, making percentage comparisons. For example, transmission types.
+
+**Map:** Maps are powerful for displaying location-based data without overwhelming the user with text. Instead of listing sales by region, I use map visuals to highlight activity across geographic areas. Users can apply slicers and hover over specific regions to see detailed metrics.
 
 **Gauge:** The gauge visual is effective for comparing actual values against benchmarks or targets. It provides a clear, immediate sense of performance status. For example, MMR value against actual sale price.
 
