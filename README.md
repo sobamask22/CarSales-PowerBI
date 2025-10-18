@@ -73,6 +73,9 @@ The Vehicle sales data model is showed below. It highlights:
 - **Geographical Sales Distribution:** A map visualization displays the states where vehicles were sold, offering insight into regional market activity.
 
 
+<img width="1849" height="917" alt="image" src="https://github.com/user-attachments/assets/82b4195e-2231-42fc-9e36-4f9cacebbf89" />
+
+
 ## Tech Stack:
 - **Microsoft Excel CSV:** Used as the storage format for importing and exporting structured datasets
 
