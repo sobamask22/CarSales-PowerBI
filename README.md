@@ -16,15 +16,21 @@ My cleaning approach: To tackle these issues efficiently, I used Python in Visua
 
 **Step 1:** Load and Inspect Data
 - Imported the CSV file using its file path and displayed the top rows
+  
+<img width="1815" height="482" alt="image" src="https://github.com/user-attachments/assets/3f12f601-6741-4fce-a95d-3f6202cc8ad1" />
 
 **Step 2:** Explore Unique Values
 - Exported a CSV containing unique values from the target column
 - This helped me quickly identify inconsistent entries and duplicates
-  
+
+<img width="782" height="506" alt="image" src="https://github.com/user-attachments/assets/505021aa-280c-448f-b36e-8c1f26a0fb91" />
+
 **Step 3:** Replace Values with Python
 - Used df.replace() to standardize inconsistent entries (e.g., all variations of “Ford”)
 - Used df.replace() to handle null values in specific columns
-  
+
+<img width="1045" height="635" alt="image" src="https://github.com/user-attachments/assets/f87af794-5218-4c17-8482-07770cf00428" />
+
 **Step 4:** Re-run and Validate
 - Re-executed the code block to update the dataset
 - Regenerated the unique values sheet to confirm replacements were successful
