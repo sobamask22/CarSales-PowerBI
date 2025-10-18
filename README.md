@@ -7,7 +7,7 @@
 
 - The objective is to utilize visualization tools and calculated measures to produce business critical insights related to revenue and sales. These visualizations support decision makers to Monitor performance across time periods, Understand geographic and transmission type revenue distribution, Identify high-margin products, Track seasonal sales patterns, and more.
 
-<br><br>
+<br>
 
 ## Data Preperation and Modelling:
 One of the main challenges I faced during this project was the inconsistency of the dataset. With over 186,000 rows, manually reviewing the data would be an extremely daunting. Issues include empty rows and missing values, excess table regions and duplicate entries in categorical columns.
@@ -29,7 +29,7 @@ My cleaning approach: To tackle these issues efficiently, I used Python in Visua
 - Used df.replace() to standardize inconsistent entries (e.g., all variations of “Ford”)
 - Used df.replace() to handle null values in specific columns
 
-<img width="1045" height="635" alt="image" src="https://github.com/user-attachments/assets/f87af794-5218-4c17-8482-07770cf00428" />
+<img width="1067" height="605" alt="image" src="https://github.com/user-attachments/assets/d202165c-5162-4560-88c2-d02d8cc40888" />
 
 **Step 4:** Re-run and Validate
 - Re-executed the code block to update the dataset
@@ -39,7 +39,7 @@ My cleaning approach: To tackle these issues efficiently, I used Python in Visua
 - In Power BI, I used Power Query to remove unnecessary rows and columns that extended beyond the actual data
 - This ensured a clean, structured dataset that didn’t interfere with visualizations or calculations
 
-<br><br>
+<br>
 
 ## Executive Summary:
 ### Overview:
@@ -88,7 +88,7 @@ My cleaning approach: To tackle these issues efficiently, I used Python in Visua
   
 - **Geographical Sales Distribution:** A map visualization displays the states where vehicles were sold, offering insight into regional market activity.
 
-<br><br>
+<br>
 
 ## Measures Created and Used:
 All calculated measures were created using Dax Formula and stored in a dedicated measures table. This design choice improves clarity, helps maintenance and supports better documentation especially in complex models.
@@ -106,7 +106,7 @@ All calculated measures were created using Dax Formula and stored in a dedicated
 **Odometer < 40,000:** Calculates the percentage of vehicles sold with odometer readings under 40,000 miles. Useful for identifying low mileage inventory.
 MMR Total: Sums the Manheim Market Report (MMR) values, which represent benchmark market prices. This measure is essential for comparing actual sale prices against market expectations.
 
-<br><br>
+<br>
 
 ## Why I chose Power BI:
 ### Seamless Integration with Excel:
@@ -124,7 +124,7 @@ Power BI excels in data modelling through:
 - Power Query for advanced data transformation
 - Support for multi-table relationships for enabling complex models
 
-<br><br>
+<br>
 
 ## Why Specific Visuals?
 **Line Chart:** The line chart is ideal for visualizing trends across time periods. In my dashboard, it displays monthly values across multiple years, allowing users to compare performance year over year. Each line represents a different year, making it easy to spot seasonal patterns. For example, revenue and sales.
@@ -134,7 +134,7 @@ Maps: Maps are powerful for displaying location-based data without overwhelming 
 
 **Gauge:** The gauge visual is effective for comparing actual values against benchmarks or targets. It provides a clear, immediate sense of performance status. For example, MMR value against actual sale price.
 
-<br><br>
+<br>
 
 ## Tech Stack:
 - **Microsoft Excel CSV:** Used as the storage format for importing and exporting structured datasets
@@ -149,7 +149,7 @@ Maps: Maps are powerful for displaying location-based data without overwhelming 
 
 - **Data Modeling:** Establishing relationships between tables for accurate filtering
 
-<br><br>
+<br>
 
 ## Source:
 https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data
