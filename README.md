@@ -95,7 +95,7 @@ My cleaning approach: To tackle these issues efficiently, I used Python in Visua
 ## Measures Created and Used:
 All calculated measures were created using Dax Formula and stored in a dedicated measures table. This design choice improves clarity, helps maintenance and supports better documentation especially in complex models.
 
-**Total Revenue:** Calculates the SUM of revenue across all transactions. This measure reflects overall earnings and can be filtered by time periods for trend analysis.
+**Total Revenue:** Calculates the sum of sale values across all transactions. This measure reflects overall earnings and can be filtered by time periods for trend analysis.
 
 **Total Sales:** Counts the total number of rows in the dataset, with each row representing a sale. Since there’s no order ID column therefore each row count serves as an individual sale.
 
