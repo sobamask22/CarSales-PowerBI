@@ -97,16 +97,17 @@ All calculated measures were created using Dax Formula and stored in a dedicated
 
 **Total Revenue:** Calculates the sum of sale values across all transactions. This measure reflects overall earnings and can be filtered by time periods for trend analysis.
 
-**Total Sales:** Counts the total number of rows in the dataset, with each row representing a sale. Since there’s no order ID column therefore each row count serves as an individual sale.
+**Total Sales:** Counts the total number of rows in the dataset, with each row representing a sale. Since there’s no order ID column, each row count serves as an individual sale.
 
-**Average Cost of Orders:** Divides Total Revenue by Total Sales to calculate the average spend per sale. This is useful for checking performance across categories like car brands or specific years.
+**Average Cost of Orders:** Divides Total Revenue by Total Sales to calculate the average spend per sale. This is useful for checking performance across categories like car brands.
 
-**YoY% Change:** Calculates Year over Year percentage change by comparing values across consecutive years. For example, Total Revenue 2013 against Total Revenue 2012 or Total Sales 2011 against Total Sales 2010. This helps identify growth trends or declines over time.
+**YoY% Change:** Calculates Year over Year percentage change by comparing values in years. For example, Total Revenue 2013 against Total Revenue 2012 or Total Sales 2011 against Total Sales 2010. This helps identify growth trends or declines over time.
 
 **Sale of Car Condition < 25:** Evaluates vehicle quality per sale by checking the Condition column for values below 25. It returns the percentage of total sales that fall into this condition bracket.
 
 **Odometer < 40,000:** Calculates the percentage of vehicles sold with odometer readings under 40,000 miles. Useful for identifying low mileage inventory.
-MMR Total: Sums the Manheim Market Report (MMR) values, which represent benchmark market prices. This measure is essential for comparing actual sale prices against market expectations.
+
+**MMR Total:** Sums the Manheim Market Report (MMR) values, which represent benchmark market prices. This measure is essential for comparing actual sale prices against market expectations.
 
 <br>
 
