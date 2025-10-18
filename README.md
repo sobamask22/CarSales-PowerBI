@@ -8,8 +8,10 @@
 - The objective is to utilize visualization tools and calculated measures to produce business critical insights related to revenue and sales. These visualizations support decision makers to Monitor performance across time periods, Understand geographic and transmission type revenue distribution, Identify high-margin products, Track seasonal sales patterns, and more.
 
 
+
+
 ## Data Preperation and Modelling:
-One of the main challenges I faced during this project was the inconsistency of the dataset. With over 186,000 rows, manually reviewing the data would be an extremely daunting. Issues include empty rows and missing values, excess table regions and duplicate entries in categorical columns (“Ford”, “FORD” & “ford”).
+One of the main challenges I faced during this project was the inconsistency of the dataset. With over 186,000 rows, manually reviewing the data would be an extremely daunting. Issues include empty rows and missing values, excess table regions and duplicate entries in categorical columns.
 
 My cleaning approach: To tackle these issues efficiently, I used Python in Visual Studio Code and Power Query in Power BI:
 
@@ -33,8 +35,9 @@ My cleaning approach: To tackle these issues efficiently, I used Python in Visua
 - This ensured a clean, structured dataset that didn’t interfere with visualizations or calculations
 
 
-## Executive Summary:
 
+
+## Executive Summary:
 ### Overview:
 - The overview page highlights a total revenue of £2.54 billion and total sales volume of 186 thousand units. Year-over-year comparisons indicate a slight decline in performance, with revenue decreasing by 0.06% and total sales falling by 0.18% between 2013 and 2014. The line chart on the Kpi Cards shows the revenue and sales change between 2013 and 2014.
 
@@ -82,7 +85,6 @@ My cleaning approach: To tackle these issues efficiently, I used Python in Visua
 - **Geographical Sales Distribution:** A map visualization displays the states where vehicles were sold, offering insight into regional market activity.
 
 
-<img width="1849" height="917" alt="image" src="https://github.com/user-attachments/assets/82b4195e-2231-42fc-9e36-4f9cacebbf89" />
 
 
 ## Measures Created and Used:
@@ -102,6 +104,8 @@ All calculated measures were created using Dax Formula and stored in a dedicated
 MMR Total: Sums the Manheim Market Report (MMR) values, which represent benchmark market prices. This measure is essential for comparing actual sale prices against market expectations.
 
 
+
+
 ## Why I chose Power BI:
 ### Seamless Integration with Excel:
 Power BI integrates effortlessly with Excel, making it easy to import, transform, and visualize spreadsheets. Since both tools are part of the Microsoft ecosystem, they share familiar interfaces and functionalities which is ideal for users transitioning from Excel to more advanced analytics.
@@ -119,6 +123,19 @@ Power BI excels in data modelling through:
 - Support for multi-table relationships for enabling complex models
 
 
+
+
+## Why Specific Visuals?
+**Line Chart:** The line chart is ideal for visualizing trends across time periods. In my dashboard, it displays monthly values across multiple years, allowing users to compare performance year over year. Each line represents a different year, making it easy to spot seasonal patterns. For example, revenue and sales.
+
+**Pie Chart:** Pie charts work best when dealing with a small number of distinct categories. I use them to show how each category contributes to a whole, making percentage comparisons intuitive. For example, transmission types
+Maps: Maps are powerful for displaying location-based data without overwhelming the user with text. Instead of listing sales by region, I use map visuals to highlight activity across geographic areas. Users can apply slicers by year and hover over specific regions to see detailed metrics.
+
+**Gauge:** The gauge visual is effective for comparing actual values against benchmarks or targets. It provides a clear, immediate sense of performance status. For example, MMR value against actual sale price.
+
+
+
+
 ## Tech Stack:
 - **Microsoft Excel CSV:** Used as the storage format for importing and exporting structured datasets
 
@@ -131,6 +148,8 @@ Power BI excels in data modelling through:
 - **DAX (Data Analysis Expressions):** Used to create calculated measures, KPIs, and dynamic filters for enhanced interactivity and analytical depth
 
 - **Data Modeling:** Establishing relationships between tables for accurate filtering
+
+
 
 
 ## Source:
